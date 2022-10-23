@@ -11,10 +11,13 @@ resumen.addEventListener("click", (e) => {
   switch (select.value) {
     case "estudiante":
       total.textContent = `Total a pagar: $${200 * 0.2 * n}`;
+      break;
     case "trainee":
       total.textContent = `Total a pagar: $${200 * 0.5 * n}`;
+      break;
     case "junior":
       total.textContent = `Total a pagar: $${200 * 0.85 * n}`;
+      break;
   }
 });
 
